@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiOAuthBase", "WebApiOAuthBase\WebApiOAuthBase.csproj", "{FE4F9248-373D-4229-8BE2-F37626F1B3FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApiController", "TestApiController\TestApiController.csproj", "{248D43DC-DB5F-4CFA-BEEF-BDA4B06FE672}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiOAuthBase.Infrastructure", "WebApiOAuthBase.Infrastructure\WebApiOAuthBase.Infrastructure.csproj", "{3E22CCCE-2BDC-49A9-A6E7-4BA33994CBD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiOAuthBase.Identity", "WebApiOAuthBase.Identity\WebApiOAuthBase.Identity.csproj", "{D34DC237-34CA-45E8-AA5B-163F1BED41BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiOAuthBase.LoggingAndAudit", "WebApiOAuthBase.LoggingAndAudit\WebApiOAuthBase.LoggingAndAudit.csproj", "{55BBA880-42F8-4639-9957-FDA85B1D61B0}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://aesondev.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = TestApiController\\TestApiController.csproj
+		SccProjectName1 = TestApiController
+		SccLocalPath1 = TestApiController
+		SccProjectUniqueName2 = WebApiOAuthBase.Identity\\WebApiOAuthBase.Identity.csproj
+		SccProjectName2 = WebApiOAuthBase.Identity
+		SccLocalPath2 = WebApiOAuthBase.Identity
+		SccProjectUniqueName3 = WebApiOAuthBase.Infrastructure\\WebApiOAuthBase.Infrastructure.csproj
+		SccProjectName3 = WebApiOAuthBase.Infrastructure
+		SccLocalPath3 = WebApiOAuthBase.Infrastructure
+		SccProjectUniqueName4 = WebApiOAuthBase.LoggingAndAudit\\WebApiOAuthBase.LoggingAndAudit.csproj
+		SccProjectName4 = WebApiOAuthBase.LoggingAndAudit
+		SccLocalPath4 = WebApiOAuthBase.LoggingAndAudit
+		SccProjectUniqueName5 = WebApiOAuthBase\\WebApiOAuthBase.csproj
+		SccProjectName5 = WebApiOAuthBase
+		SccLocalPath5 = WebApiOAuthBase
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE4F9248-373D-4229-8BE2-F37626F1B3FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE4F9248-373D-4229-8BE2-F37626F1B3FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE4F9248-373D-4229-8BE2-F37626F1B3FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE4F9248-373D-4229-8BE2-F37626F1B3FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{248D43DC-DB5F-4CFA-BEEF-BDA4B06FE672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{248D43DC-DB5F-4CFA-BEEF-BDA4B06FE672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{248D43DC-DB5F-4CFA-BEEF-BDA4B06FE672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{248D43DC-DB5F-4CFA-BEEF-BDA4B06FE672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E22CCCE-2BDC-49A9-A6E7-4BA33994CBD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E22CCCE-2BDC-49A9-A6E7-4BA33994CBD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E22CCCE-2BDC-49A9-A6E7-4BA33994CBD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E22CCCE-2BDC-49A9-A6E7-4BA33994CBD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D34DC237-34CA-45E8-AA5B-163F1BED41BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D34DC237-34CA-45E8-AA5B-163F1BED41BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D34DC237-34CA-45E8-AA5B-163F1BED41BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D34DC237-34CA-45E8-AA5B-163F1BED41BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55BBA880-42F8-4639-9957-FDA85B1D61B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55BBA880-42F8-4639-9957-FDA85B1D61B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55BBA880-42F8-4639-9957-FDA85B1D61B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55BBA880-42F8-4639-9957-FDA85B1D61B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
